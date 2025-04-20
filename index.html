@@ -8,11 +8,17 @@
   <style>
     body {
       background-color: white;
-    }
+      min-height: 100vh;    
+      display: flex;         
+      flex-direction: column;
+
+    }  .page-content {
+    flex: 1; /* make footer go to bottom - was assisted by Chat */
+  }
+</style>
   </style>
 </head>
 <body>
-  <div class="overlay">
 
     <nav class="navbar bg-success navbar-dark">
       <div class="container">
@@ -24,7 +30,7 @@
     </nav>
 
     <div class="container text-center py-5">
-      <h1 class="display-5">The Juice Laundry</h1>
+      <h1 class="display-3 text-success fw-bold">The Juice Laundry</h1>
     </div>
 
 
