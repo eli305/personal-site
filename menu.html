@@ -8,11 +8,18 @@
   <style>
   body {
   background: url('https://raw.githubusercontent.com/eli305/personal-site/main/image1.jpg') no-repeat center center fixed;
-  background-size: cover;
+    background-size: cover;
+    min-height: 100vh;         
+    display: flex;            
+    flex-direction: column;    
+    margin: 0;                
 }
 .overlay {
-      background-color: rgba(255, 255, 255, 0.88); /* light white overlay */
-      min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0.88); /* light white overlay */
+    flex: 1;  
+    display: flex;
+    flex-direction: column;
+
     } .bg-blue {
     background-color: #58D3D8;
  }.bg-pink {
